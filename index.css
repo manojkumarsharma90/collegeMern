@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; 
+  }
+  
+  body {
+    font-family: gilroy;
+    background-color: #e9ecef;  
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .banner {
+    background-color: rgb(151, 214, 151);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 66px;
+    font-weight: bold;
+    border-bottom: 4px solid #e67e22;
+    width: 100%;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    
+  }
+  
+  .links {
+    background-color: rgb(133, 236, 236);
+    width: 20%;
+    padding: 25px;  font-weight: bold;
+   
+    overflow: hidden; 
+    font-size: 20px;
+    
+    text-decoration: none;
+  }
+  
+  .links a {
+    display: block;
+    
+    text-decoration: none;
+  }
+  .main_content{
+    display: flex;
+    flex-grow: 1;
+  }
+   iframe{
+    width: 400%;
+    height: 100%;
+  }
+  
+ 
